@@ -12,7 +12,7 @@
 }
 
 p, h1, h2, h3, h4, h5, h6 {
-    margin: 0;
+    margin: 0 auto;
 }
 
 ul, ol {
@@ -92,8 +92,6 @@ body {
 /*--------------------------------------- header -----------------------------------------------------*/ 
 
 .header {
-    padding-top: 24px;
-    padding-bottom: 25px;
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -104,6 +102,7 @@ body {
     line-height: var(--first-lh);
     letter-spacing: 0.28px;
 }
+
  .menu-link:hover, .menu-link:focus {
     color: var(--hover-color);
  }
@@ -144,12 +143,19 @@ body {
  .header-logo {
     margin-right: 93px;
  }
+
+ .menu-item .menu-link {
+        display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
+ }
 /*--------------------------------------- hero -----------------------------------------------------*/
 
  .hero {
     background-color: var(--first-color);
     padding-top: 200px;
     padding-bottom: 200px;
+    text-align: center;
  }
 
  .hero-title {
@@ -187,11 +193,7 @@ body {
     min-width: 216px;
  }
 
- .hero-container {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
- }
+
 
  /*--------------------------------------- advantages -----------------------------------------------------*/
 
@@ -258,8 +260,7 @@ body {
     font-weight: 500;
     line-height: var(--second-lh);
     letter-spacing: 0.48px;
-    margin-top: 30px;
-    
+    margin-bottom: 4px;
 }
 
 .team-text {
@@ -268,7 +269,6 @@ body {
     font-size: 16px;
     line-height: var(--second-lh);
     letter-spacing: 0.48px;
-    margin-bottom: 30px;
 }
 
 .team-item {
@@ -282,6 +282,12 @@ body {
     display: flex;
     gap: 30px;
 }
+
+.team-card-container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
 /*--------------------------------------- footer -----------------------------------------------------*/
 .footer {
     background-color: var(--first-color);
@@ -295,8 +301,6 @@ body {
     line-height: var(--first-lh);
     letter-spacing: 0.42px;
     font-style: normal;
-    margin-top: 20px;
-    margin-top: 28px;
 }
 
 .contacst-footer {
@@ -308,8 +312,13 @@ body {
     letter-spacing: 0.42px;
 }
 
-.contacts-item {
-    margin-top: 12px;
+.address-footer {
+    margin-top: 28px;
+}
+
+.contacts-item-footer {
+    margin-top: 9px;
+    margin-bottom: 9px;
 }
 /* ********************************************** PORTFOLIO ****************************************************** */
 
@@ -352,7 +361,7 @@ body {
     font-weight: 700;
     line-height: 2;
     letter-spacing: 1.08px;
-    margin: 20px 24px 0 24px;
+    margin-bottom: 4px;
 }
 
 .portfolio-text {
@@ -360,7 +369,6 @@ body {
     font-size: 16px;
     line-height: var(--second-lh);
     letter-spacing: 0.48px;
-    margin: 0 24px 20px 24px;
 }
 
 .portfolio-list {
@@ -372,9 +380,16 @@ body {
 }
 
 .portfolio-item {
-    border: 1px solid #eee;
     width: 370px;
     height: 404px;
 }
 
+.portfolio-card-container {
+    padding: 24px 24px 20px 24px;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+
 /*  */
+
