@@ -301,7 +301,6 @@ body {
     line-height: var(--first-lh);
     letter-spacing: 0.42px;
     font-style: normal;
-    margin-bottom: 9px;
 }
 
 .contacst-footer {
@@ -317,7 +316,11 @@ body {
     margin-top: 28px;
 }
 
-ul .contacts-item:first-child {
+.contacts-footer {
+    margin-top: 9px;
+}
+
+.contacts-item:first-child {
     margin-bottom: 9px;
 }
 /* ********************************************** PORTFOLIO ****************************************************** */
