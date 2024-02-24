@@ -260,7 +260,7 @@ body {
     font-weight: 500;
     line-height: var(--second-lh);
     letter-spacing: 0.48px;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
 }
 
 .team-text {
@@ -301,6 +301,7 @@ body {
     line-height: var(--first-lh);
     letter-spacing: 0.42px;
     font-style: normal;
+    margin-bottom: 9px;
 }
 
 .contacst-footer {
@@ -316,8 +317,7 @@ body {
     margin-top: 28px;
 }
 
-.contacts-item-footer {
-    margin-top: 9px;
+ul .contacts-item:first-child {
     margin-bottom: 9px;
 }
 /* ********************************************** PORTFOLIO ****************************************************** */
@@ -381,7 +381,6 @@ body {
 
 .portfolio-item {
     width: 370px;
-    height: 404px;
 }
 
 .portfolio-card-container {
